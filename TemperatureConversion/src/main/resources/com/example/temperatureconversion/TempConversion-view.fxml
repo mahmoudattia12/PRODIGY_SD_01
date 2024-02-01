@@ -5,12 +5,46 @@
 <?import javafx.scene.layout.VBox?>
 
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.example.temperatureconversion.TempConversionController">
-  <padding>
-    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-  </padding>
 
-  <Label fx:id="welcomeText"/>
-  <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.collections.FXCollections?>
+<?import java.lang.String?>
+
+<StackPane stylesheets="@styles.css" xmlns:fx="http://javafx.com/fxml"
+           fx:controller="com.example.temperatureconversion.TempConversionController">
+    <VBox id="vBoxID" alignment="TOP_CENTER" prefHeight="462.0" prefWidth="615.0" spacing="20.0">
+        <padding>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="30.0"/>
+        </padding>
+
+        <Label id="headerLabel" contentDisplay="CENTER" text="Temperature Conversion"/>
+
+        <HBox fx:id="hboxContainer" alignment="CENTER" spacing="10.0">
+            <Label styleClass="Title" text="Temperature:"/>
+
+            <TextField id="inputNumber" fx:id="inputField" onKeyTyped="#onInputKeyTyped"
+                       promptText="Enter temperature"/>
+
+            <ChoiceBox id="uChoiceBox" fx:id="unitChoiceBox">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="Celsius"/>
+                        <String fx:value="Fahrenheit"/>
+                        <String fx:value="Kelvin"/>
+                    </FXCollections>
+                </items>
+            </ChoiceBox>
+
+            <Button id="convertButton" alignment="CENTER" onAction="#onConvertButtonClick" text="Convert"/>
+        </HBox>
+
+        <!-- Result Fields -->
+        <VBox alignment="CENTER" spacing="10.0" fx:id="resultField">
+            <!--results will be added here dynamically-->
+        </VBox>
+    </VBox>
+</StackPane>
