@@ -26,7 +26,14 @@ To run the program you can clone the repository and use the provided jar file "T
 ![image](https://github.com/mahmoudattia12/PRODIGY_SD_01/assets/96799025/93cafc73-853e-41b2-abab-07633ba9fb09)
 ![image](https://github.com/mahmoudattia12/PRODIGY_SD_01/assets/96799025/63e44158-a3de-4ecf-b17a-b1c89e6819bd)
 
+---
 ## Dependencies
 
 - JavaFX for the graphical user interface.
 - Maven for project management and build.
+---
+## Video
+
+https://github.com/mahmoudattia12/PRODIGY_SD_01/assets/96799025/90b26914-6347-47a4-bbd6-64a34d5cc628
+
+
