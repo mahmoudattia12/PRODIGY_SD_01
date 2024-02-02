@@ -56,21 +56,8 @@ Label {
     -fx-font-size: 18;
     -fx-border-radius: 15;
     -fx-background-radius: 15;
-}
-
-#convertButton {
-    -fx-background-color: #08b916;
-    -fx-text-fill: #ffffff;
-    -fx-font-weight: bold;
-    -fx-padding: 10;
-    -fx-pref-width: 130;
-    -fx-font-size: 18;
-    -fx-border-radius: 15;
-    -fx-background-radius: 15;
     -fx-cursor: hand;
-
     -fx-transition: all 0.2s ease-in-out;
-
     -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 0);
 }
 
