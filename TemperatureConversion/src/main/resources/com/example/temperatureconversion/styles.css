@@ -71,7 +71,7 @@ Label {
 
     -fx-transition: all 0.2s ease-in-out;
 
-    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.2), 10, 0, 0, 0);
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 10, 0, 0, 0);
 }
 
 #convertButton:hover {

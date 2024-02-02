@@ -24,6 +24,7 @@ class TempConversionControllerTest {
         assertEquals(conversionController.CelsiusToFahrenheit(-123), -189.4, delta);
         assertEquals(conversionController.CelsiusToFahrenheit(456.4356), 853.58408, delta);
     }
+
     @Test
     void testFahrenheitToKelvin() {
         assertEquals(conversionController.FahrenheitToKelvin(0), 255.37222222, delta);
