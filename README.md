@@ -24,7 +24,7 @@ To run the program you can clone the repository and use the provided jar file "T
 ![image](https://github.com/mahmoudattia12/PRODIGY_SD_01/assets/96799025/74c3acc4-45a2-4e70-9730-eb5684875dfa)
 ![image](https://github.com/mahmoudattia12/PRODIGY_SD_01/assets/96799025/af4dd4ba-6709-462c-9f86-cd826f859f8f)
 ![image](https://github.com/mahmoudattia12/PRODIGY_SD_01/assets/96799025/93cafc73-853e-41b2-abab-07633ba9fb09)
-![image](https://github.com/mahmoudattia12/PRODIGY_SD_01/assets/96799025/5174b0ed-29dc-436a-9b07-7a070542c44d)
+![image](https://github.com/mahmoudattia12/PRODIGY_SD_01/assets/96799025/63e44158-a3de-4ecf-b17a-b1c89e6819bd)
 
 ## Dependencies
 
